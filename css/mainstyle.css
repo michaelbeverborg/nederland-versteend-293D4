@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+}
+
+header {
+  margin: 1em auto;
+  width: 90%;
+  background-color: #90ee90;
+  padding: 1em 1em;
+}
+
+ul {
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul li {
+  font-size: 0.5em;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-shadow: 1px 1px 4px #000;
+}
+
+.vl {
+  border-left: 1px solid #000;
+  margin-left: -1px;
+}
+
+h2 {
+  text-shadow: 3px 3px 8px #000;
+  margin: 1em 2em;
+}
+
+h3 {
+  text-shadow: 0 0 0;
+}
+
+p {
+  margin: 2rem;
+}
+
+img {
+  display: block;
+  margin: 2em auto;
+}
+
+.wazig {
+  opacity: 0.5;
+}
+
+.breakline {
+  margin: 2em 2em;
+  border: 1px solid;
+  border-image: linear-gradient(90deg, #000 0%, #fff 50%, #000 100%);
+  border-image-slice: 1;
+}
+
+.blokcontainer1 {
+  margin-left: calc(50% - 41vw);
+  float: left;
+}
+
+.blokcontainer2 {
+  margin-right: calc(50% - 41vw);
+  float: right;
+  margin-bottom: 1em;
+}
+
+.blokje {
+  margin-bottom: 1em;
+  width: 40vw;
+  height: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #00f;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  p {
+  }
+}
